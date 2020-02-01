@@ -1,3 +1,0 @@
-Name: Anita
-Age: 35
-Female
