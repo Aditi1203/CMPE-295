@@ -4,20 +4,19 @@ from glob import glob
 import random
 from matplotlib import pyplot as plt
 
-
+8772275511
 def get_paths():
     """ Get paths for data1 in data1/mit/ directory """
     # Download if doesn't exist
     # There are 3 files for each record
     # *.atr is one of them
     # 117 is faulty one, 100 is good one
-    paths = glob("data/100.atr")
+    paths = glob("data/105.atr")
 
     paths = [path[:-4] for path in paths]
     print("All paths", paths)
 
-    return paths[:2]
-
+    return paths[:1]
 
 def read_signals(paths):
     all_signals = []

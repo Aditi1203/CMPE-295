@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ef0efb-e1fc-4dfb-92b7-a9ce2342991d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_1/data_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_1/data_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/0 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anand_sandbox/anand_sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/anand_sandbox/anand_sandbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anand_sandbox/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/anand_sandbox/helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterworth.py" beforeDir="false" afterPath="$PROJECT_DIR$/butterworth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-541">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="167">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -159,7 +99,7 @@
               <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
               <item name="Dataset1" type="462c0819:PsiDirectoryNode" />
               <item name="qrs_detection_approach_2" type="462c0819:PsiDirectoryNode" />
-              <item name="data1" type="462c0819:PsiDirectoryNode" />
+              <item name="Dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
@@ -167,6 +107,7 @@
               <item name="Dataset1" type="462c0819:PsiDirectoryNode" />
               <item name="qrs_detection_approach_2" type="462c0819:PsiDirectoryNode" />
               <item name="Dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="person105" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,6 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -210,6 +152,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -292,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="167">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
