@@ -3,7 +3,7 @@ from csv import reader
 
 ecg = []
 
-with open('data/Person_01/rec_1.csv') as csv_file:
+with open('data1/Person_01/rec_1.csv') as csv_file:
     csv_reader = reader(csv_file, delimiter=',')
     for row in csv_reader:
         ecg.append(float(row[0]))
