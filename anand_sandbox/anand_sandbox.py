@@ -8,9 +8,9 @@ def get_paths():
     paths = glob("mit-bih-data/*.atr")
     paths = [path[:-4] for path in paths]
     # print('Only paths', paths)
-    return paths
+    return paths[:2]
 
-def read_signals(get_paths):
+def read_signals(paths):
     all_signals = []
     for rec in paths:
         record = wf.rdsamp(rec, channels=[0])
