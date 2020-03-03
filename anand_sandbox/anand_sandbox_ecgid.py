@@ -13,6 +13,7 @@ def get_paths():
 def read_signals(paths):
     all_signals = []
     for rec in paths:
+        record_number = rec[23:25]
         record = wf.rdsamp(rec, channels=[0])
         p_signals, fields = wf.rdsamp(rec, channels=[0])
         num_cols = len(record)
@@ -35,10 +36,13 @@ def read_signals(paths):
                 for k in a:
                     patient.append(k)
         
+        from helper import save_to_csv
+        
         # logging
         # print('record: ',rec)
         # print('patient record length: ',len(rec))
         segmented_arr = np.array(patient, dtype=np.float)
+        save_to_csv(segmented_arr, "ecgid_individual_segmented/Person_"+record_number+".csv")
         # print('patient record as np array: \n',segmented_arr)
         all_signals.append(p_signals)
     return all_signals, fields, segmented_arr
