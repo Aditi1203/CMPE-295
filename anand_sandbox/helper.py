@@ -17,11 +17,11 @@ def create_signal(file_name, signal, segment):
     csv = pd.read_csv(file_name, names=["values"])
     print("csv", csv)
     data = np.array(csv['values'])
-    print("data", data)
+    print("data1", data)
     print("signal", signal)
     print("segment", segment)
     print("shape", data.shape)
-    print("data len", len(data))
+    print("data1 len", len(data))
     signals = []
     count = 1
     peaks = biosppy.signals.ecg.christov_segmenter(signal=segment, sampling_rate=200)[0]

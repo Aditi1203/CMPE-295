@@ -6,12 +6,12 @@ from matplotlib import pyplot as plt
 
 
 def get_paths():
-    """ Get paths for data in data/mit/ directory """
+    """ Get paths for data1 in data1/mit/ directory """
     # Download if doesn't exist
     # There are 3 files for each record
     # *.atr is one of them
     # 117 is faulty one, 100 is good one
-    paths = glob("data/*.atr")
+    paths = glob("data1/*.atr")
 
     paths = [path[:-4] for path in paths]
     print("Only path", paths)
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     for qrs, signal, record in zip(indexes, all_signals, paths):
         segments = qrs_segment(indexes, signal)
-        one_hot_encoding(segments, 'record' + record[5:])  # [5:] will get rid of the 'data' prefix in the path.
+        one_hot_encoding(segments, 'record' + record[5:])  # [5:] will get rid of the 'data1' prefix in the path.
         # for segment in segments:
         #     print(segment)
         #     print(" ")

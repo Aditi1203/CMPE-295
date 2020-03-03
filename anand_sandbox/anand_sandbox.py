@@ -5,7 +5,7 @@ import random
 from matplotlib import pyplot as plt
 
 def get_paths():
-    paths = glob("mit-bih-data/*.atr")
+    paths = glob("mit-bih-data1/*.atr")
     paths = [path[:-4] for path in paths]
     # print('Only paths', paths)
     return paths[:2]

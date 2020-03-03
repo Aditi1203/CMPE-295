@@ -7,7 +7,7 @@ import os, sys
 
 class conversion:
     def __init__(self):
-        self.dir = os.path.join(os.getcwd(), 'data')
+        self.dir = os.path.join(os.getcwd(), 'data1')
         self.database = 'ecgiddb'
         # record = wfdb.rdrecord('ecg-id-database-1.0.0/Person_01/rec_1')
         # wfdb.plot_wfdb(record=record, title='Record a103l from Physionet Challenge 2015')
@@ -29,7 +29,7 @@ class conversion:
 
 class ProcessData:
     def __init__(self):
-        self.dir = os.path.join(os.getcwd(), 'data')
+        self.dir = os.path.join(os.getcwd(), 'data1')
         self.persons_labels = []  # who the person is
         self.age_labels = []  # age of thatperson
         self.gender_labels = []  # is that person male or female
@@ -93,7 +93,7 @@ class ProcessData:
             self.ecg_signal = self.ecg_signal.append(ufil_df, ignore_index=True)
 
     def init(self):
-        print("Setting up DeepECG data labels..")
+        print("Setting up DeepECG data1 labels..")
         self.extract_labels(self.dir)
         ecglabels = [list(i) for i in zip(self.persons_labels, self.age_labels, self.gender_labels, self.date_labels)]
         print("Exporting labels to csv..")
@@ -101,7 +101,7 @@ class ProcessData:
         df_ecglabels.to_csv(os.path.join('processed_data', 'ecgdblabels.csv'), index=False)
         print("Export complete.")
 
-        print("Setting up DeepECG data features..")
+        print("Setting up DeepECG data1 features..")
         self.extract_feats(self.dir)
         print("Exporting feature set to csv..")
         self.ecg_filsignal.to_csv(os.path.join('processed_data', 'filecgdata.csv'), index=False)
