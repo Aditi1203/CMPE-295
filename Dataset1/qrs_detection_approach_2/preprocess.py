@@ -11,7 +11,7 @@ def get_paths():
     # There are 3 files for each record
     # *.atr is one of them
     # 117 is faulty one, 100 is good one
-    paths = glob("data/115.atr")
+    paths = glob("data/202.atr")
 
     paths = [path[:-4] for path in paths]
     print("All paths", paths)
