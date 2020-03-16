@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ef0efb-e1fc-4dfb-92b7-a9ce2342991d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/118/segment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/118/segment.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,24 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="480">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -37,7 +24,65 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset1/sample_butterworth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset1/sample2_butterworth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="17" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,44 +90,52 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person202/person202.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person201/person201.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person111/person111.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person112/person112.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person113/person113.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person114/person114.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person115/person115.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person116/person116.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person117/person117.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/person118.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person119/person119.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person121/person121.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person109/person109.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person102/person102.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person101/person101.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person103/person103.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person104/person104.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person105/person105.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person106/person106.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person107/person107.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person108/person108.txt" />
+        <option value="$PROJECT_DIR$/Dataset1/sample_butterworth.py" />
+        <option value="$PROJECT_DIR$/Dataset1/sample2_butterworth.py" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/1.csv" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/cmpe-295.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
-              <item name="anand_sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
@@ -99,6 +152,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,6 +161,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Extended Kalman Filter" />
+      <recent name="$PROJECT_DIR$/Kalman Filter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2" />
     </key>
@@ -137,15 +195,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.18518518" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -153,49 +208,44 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25903615" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25903615" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/118/segment.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segment.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1336.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1335.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1334.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1337.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1333.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1323.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1322.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1320.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/person118.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1337.png" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1333.png" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1323.png" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1322.png" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1320.png" />
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment18.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -208,10 +258,221 @@
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment26.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person203/person203.txt" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person202/person202.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person201/person201.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person200/person200.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/person124.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person123/person123.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person117/person117.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/person118.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person119/person119.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person121/person121.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person116/person116.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person112/person112.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person113/person113.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person114/person114.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person115/person115.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person107/person107.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person101/person101.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person102/person102.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person103/person103.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person104/person104.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person105/person105.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person106/person106.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person108/person108.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person109/person109.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person111/person111.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/118/segment.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9725448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/100/segment.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/array.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17977">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/person118/2278.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/person118/4.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/person118/2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/person118/1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/segment1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="1320">
+          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -220,11 +481,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="480">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/sample_butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/sample2_butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="17" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
