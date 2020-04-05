@@ -8,8 +8,11 @@ from glob import glob
 import random
 import tensorflow as tf
 import errno
+import csv
 
 segment_csv_main="segmented_csv"
+individual_segmented="csv_segmented_individual"
+
 def save_to_csv(signals, file_list, file):
     # Save to CSV file.
     # print(list(beats[:]))
@@ -48,6 +51,50 @@ def save_to_csv(signals, file_list, file):
             np.savetxt(f, signals, delimiter=",", fmt='%f')
             print(' File created: ', filename)
 
+def save_to_csv_segmented(signals, file_list, file):
+    print("hello inside segmented one:")
+    print("signals",signals)
+
+    # Plotting when csv in format:[index,values]
+    # x = []
+    # y = []
+    #
+    # with open('csv_segmented_individual/1.csv', 'r') as csvfile:
+    #     plots = csv.reader(csvfile, delimiter=',')
+    #     for row in plots:
+    #         x.append(row[0])
+    #         y.append(row[1])
+    #
+    # plt.plot(x, y, label='Loaded from file!')
+    # plt.xlabel('x')
+    # plt.ylabel('y')
+    # plt.title('Interesting Graph\nCheck it out')
+    # plt.legend()
+    # plt.show()
+    basic_folder = individual_segmented
+    record_no = file_list.rsplit("/", -1)[1]
+    secondary_folder = basic_folder + "/person" + str(record_no)
+    if os.path.exists(secondary_folder):
+        print('The directory exists')
+    else:
+        print("Creating directory")
+        os.makedirs(secondary_folder)
+
+    count=1
+    for signal in signals:
+        filename = secondary_folder + '/' + str(count)+".csv"
+        count=count+1
+        # dt = pd.DataFrame(data=signal)
+        # dt.to_csv(filename, mode='a', index=True)
+        print("signal", signal)
+        np.savetxt(filename, [signal], delimiter=',', fmt='%1.3f')
+    print("File list", file_list)
+    print("file" , file)
+
+
+
+
+
 
 def create_signal(file_list, file_name, signal, segment):
     for f in file_list:
@@ -72,7 +119,8 @@ def create_signal(file_list, file_name, signal, segment):
             signal = data[x:y]
             signals.append(signal)
             count += 1
-        signal_to_image(signals,"Images",f)
+        save_to_csv_segmented(signals,f,"abc.txt")
+        # signal_to_image(signals,"Images",f)
     return signals
 
 def signal_to_image(array, directory,record_number):
@@ -89,7 +137,7 @@ def signal_to_image(array, directory,record_number):
 
     text_file = secondary_folder + '/person' + str(record_no) + '.txt'
     file = open(text_file, "w")
-    file.write("Person 1")
+    file.write("Person "+str(record_no))
     file.close()
     # with open(text_file, "w") as f:
     #     np.savetxt("Person", record_no)

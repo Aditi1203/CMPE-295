@@ -4,14 +4,14 @@ from glob import glob
 import random
 from matplotlib import pyplot as plt
 
-8772275511
+
 def get_paths():
     """ Get paths for data1 in data1/mit/ directory """
     # Download if doesn't exist
     # There are 3 files for each record
     # *.atr is one of them
     # 117 is faulty one, 100 is good one
-    paths = glob("data/202.atr")
+    paths = glob("data/117.atr")
 
     paths = [path[:-4] for path in paths]
     print("All paths", paths)
@@ -108,11 +108,22 @@ if __name__ == "__main__":
     print("Shape of all_signals",len(signals), len(signals[0]))
     print("Plotting the ECG signals")
     # plot_ecg(signals)
+
+    # print("Filter  using bandpass filter")
+    # from butterworth import plot
+    # plot(signals)
+
+    # from sample2_butterworth import run
+    # run(signals)
     print("Save to csv")
-    from qrs_complex import save_to_csv, create_signal, signal_to_image, input_files, create_data_label
+
+    from qrs_complex import save_to_csv, save_to_csv_segmented, create_signal, signal_to_image, input_files, create_data_label
     save_to_csv(segment, file_list,'segment.csv')
+    # save_to_csv_segmented(segment, file_list,'segment.csv')
     signal=create_signal(file_list,'segment.csv', signals, segment)
-    print("length of signal after christov", len(signal),len(signal[0]))
+    # print("length of signal after christov", len(signal),len(signal[0]))
+
+
     # print("length of signal after christov", len(signal), len(signal[0]))
     # print("length of signal after christov", len(signal), len(signal[2]))
     # print(signal)
