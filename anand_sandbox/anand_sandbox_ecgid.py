@@ -4,6 +4,10 @@ from glob import glob
 import random
 from matplotlib import pyplot as plt
 
+# experimental package: adding a package for detecting r peaks using pan tomkins algorithm
+from ecgdetectors import Detectors
+detectors = Detectors(360)
+
 def get_paths():
     paths = glob("ecg-id-database/Person_**/*.atr")
     paths = [path[:-4] for path in paths]
@@ -21,10 +25,27 @@ def read_signals(paths):
         annotation = wf.rdann(rec, "atr")
         all_beats = annotation.sample[:]
         beats = annotation.sample
+
+        
+        # detecting qrs using pan tompkins via py-ecg-detector package
+        distilled_record = [a[0] for a in record[0]]
+        r_peaks = detectors.pan_tompkins_detector(distilled_record)
+
+        r2r_sum = 0
+        for i in range(len(r_peaks)-1):
+            r2r = r_peaks[i+1]-r_peaks[i]
+            r2r_sum += r2r
+        
+        r2r_avg =r2r_sum/len(r_peaks)
+        # print(r2r_avg)
+
+        # print(r_peaks)
         
         patient = []
+
         for i in all_beats:
             beats = list(beats)
+
             j = beats.index(i)
             if j!=0 and j!=(len(beats)-1):
                 x = beats[j-1]
@@ -36,13 +57,19 @@ def read_signals(paths):
                 for k in a:
                     patient.append(k)
         
+        print('length of patient:',len(patient))
+        # print('length of record:',len(patient[0]))
+        break
+
         from helper import save_to_csv
         
         # logging
         # print('record: ',rec)
         # print('patient record length: ',len(rec))
+        
         segmented_arr = np.array(patient, dtype=np.float)
         save_to_csv(segmented_arr, "ecgid_individual_segmented/Person_"+record_number+".csv")
+        
         # print('patient record as np array: \n',segmented_arr)
         all_signals.append(p_signals)
     return all_signals, fields, segmented_arr

@@ -4,6 +4,10 @@ from glob import glob
 import random
 from matplotlib import pyplot as plt
 
+# experimental package: adding a package for detecting r peaks using pan tomkins algorithm
+# from ecgdetectors import Detectors
+# detectors = Detectors(250)
+
 def get_paths():
     paths = glob("mit-bih-data1/*.atr")
     paths = [path[:-4] for path in paths]
@@ -20,6 +24,10 @@ def read_signals(paths):
         annotation = wf.rdann(rec, "atr")
         all_beats = annotation.sample[:]
         beats = annotation.sample
+
+        # detecting qrs using pan tompkins via py-ecg-detector package
+        # r_peaks = detectors.pan_tompkins_detector(record)
+        # print(r_peaks)
         
         patient = []
         for i in all_beats:
