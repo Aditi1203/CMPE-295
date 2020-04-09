@@ -2,7 +2,248 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ef0efb-e1fc-4dfb-92b7-a9ce2342991d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKF2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKGSmoother.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/Filter_0.5/EKF5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/Filter_0.5/EKS5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/Input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/LPFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/MeanECGExtraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/No_Filter/EKF_no.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/No_Filter/EKS_no.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PeakDetection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PhaseCalculation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PhaseShifting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/bt_100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/lpfilter5_output.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/raw_100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/test_input.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/test_input.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/100 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/100.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/100.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/100.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/101.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/101.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/102.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/102.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/102.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/103.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/103.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/103.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/104.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/104.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/104.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/105.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/105.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/105.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/106.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/106.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/106.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/107.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/107.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/107.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/108.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/108.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/108.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/109.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/109.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/109.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/111.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/111.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/112.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/112.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/112.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/113.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/113.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/113.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/114.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/114.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/114.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/115.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/115.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/115.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/116.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/116.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/116.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/117.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/117.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/117.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/118 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/118 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/118.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/118.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/118.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/119 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/119 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/119.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/119.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/119.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/121 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/121 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/121.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/121.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/122.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/123 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/123 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/123.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/123.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/123.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/124 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/124 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/124.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/124.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/124.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/200.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/201 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/201 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/201.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/201.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/201.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/202 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/202 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/202.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/202.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/202.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/203 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/203 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/203.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/203.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/203.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/205 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/205 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/205.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/205.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/205.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/207 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/207 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/207.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/207.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/207.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/208 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/208 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/208.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/208.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/208.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/209 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/209 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/209.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/209.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/209.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/210 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/210 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/210.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/210.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/210.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/212 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/212 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/212.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/212.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/212.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/213 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/213 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/213.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/213.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/213.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/214 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/214 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/214.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/214.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/214.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/215 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/215 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/215.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/215.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/215.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/217 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/217 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/217.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/217.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/217.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/219.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/220.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/221.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/222.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/223.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/228.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/230.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/231.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/232.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/233.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234 2.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234 2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234 2.hea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234.atr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/data1/234.hea" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +256,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="1635">
+              <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -25,40 +266,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dataset1/sample_butterworth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dataset1/sample2_butterworth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="17" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="313">
+              <caret line="30" column="16" selection-start-line="21" selection-start-column="3" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,10 +280,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+            <state relative-caret-position="78">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Input.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +309,17 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EKSmoother</find>
+      <find>Xminus</find>
+      <find>where</find>
+      <find>print</find>
+      <find>StateProp</find>
+      <find>EKSm</find>
+      <find>Linearization</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,22 +351,38 @@
         <option value="$PROJECT_DIR$/Dataset1/sample_butterworth.py" />
         <option value="$PROJECT_DIR$/Dataset1/sample2_butterworth.py" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py" />
-        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/1.csv" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py" />
         <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman.py" />
+        <option value="$PROJECT_DIR$/EKF_myself.py" />
+        <option value="$PROJECT_DIR$/TestProgram.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/PhaseShifting.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/EKF_myself.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/LPFilter.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/PeakDetection.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/PhaseCalculation.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/MeanECGExtraction.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/EKF_myself2.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/EKGSmoother.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/Input.py" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py" />
+        <option value="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Input.py" />
+        <option value="$PROJECT_DIR$/Extended_Kalman_Reza/graphs_check/graphs.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="747" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,22 +390,10 @@
               <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
-              <item name="Dataset1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmpe-295" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe-295" type="462c0819:PsiDirectoryNode" />
-              <item name="Dataset1" type="462c0819:PsiDirectoryNode" />
-              <item name="qrs_detection_approach_2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,12 +402,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Extended_Kalman_Reza/graphs_check" />
+      <recent name="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2" />
+      <recent name="$PROJECT_DIR$/Extended_Kalman_Reza/data" />
+      <recent name="$PROJECT_DIR$/Extended_Kalman_Reza" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Extended Kalman Filter" />
+      <recent name="$PROJECT_DIR$/Extended_Kalman_Reza" />
       <recent name="$PROJECT_DIR$/Kalman Filter" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Dataset1/qrs_detection_approach_2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,10 +441,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="747" height="821" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5035461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,7 +454,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25903615" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32490012" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -219,7 +464,7 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,7 +475,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25903615" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25903615" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -241,117 +486,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1337.png" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1333.png" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1323.png" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1322.png" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Images/1320.png" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment18.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment22.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment24.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/segment26.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person203/person203.txt" />
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person202/person202.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person201/person201.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person200/person200.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person124/person124.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person123/person123.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person117/person117.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/person118.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person119/person119.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person121/person121.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person116/person116.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person112/person112.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person113/person113.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person114/person114.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person115/person115.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person107/person107.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person101/person101.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -415,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butterworth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/segmented_csvdata/118/segment.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9725448" />
@@ -440,16 +564,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/2.csv" />
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/1.csv" />
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/csv_segmented_individual/person118/2278.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -469,29 +585,105 @@
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Dataset/person118/segment1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PhaseShifting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalman Filter/deviation_covariance.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalman Filter/Kalman Filter.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/LPFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PeakDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/MeanECGExtraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="328">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1040">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/PhaseCalculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKGSmoother.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="242" column="8" selection-start-line="242" selection-start-column="8" selection-end-line="242" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/EKF2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/sample_butterworth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="315">
           <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -501,10 +693,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/sample2_butterworth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="17" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="479">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended Kalman Filter/Extended_Kalman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/test_input.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34200">
+          <caret line="2280" column="11" selection-start-line="2280" selection-start-column="11" selection-end-line="2280" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/Filter_0.5/EKF5.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/RAW_ECG_CSV/101.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/sample2_butterworth.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,10 +725,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/RAW_ECG_CSV/100.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9743920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/BANDPASS_LP5_HP_30/100.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/qrs_complex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/lpfilter5_output.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/test_input.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/Input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/butterworth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="313">
+          <caret line="30" column="16" selection-start-line="21" selection-start-column="3" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/bt_100.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProgram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extended_Kalman_Based_On_Reza/graphs_check/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butterworth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset1/qrs_detection_approach_2/Input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
