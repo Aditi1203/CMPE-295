@@ -9,9 +9,10 @@ import random
 import tensorflow as tf
 
 def save_to_csv(signals, file_name):
-    with open(file_name, "wb") as fi:
-        np.savetxt(fi, signals, delimiter=",", fmt="%f")
+    with open(file_name, "w") as fi:
+        np.savetxt(fi, signals, fmt="%f")
         print("file created: ",file_name)
+    
 
 def create_signal(file_name, signal, segment):
     csv = pd.read_csv(file_name, names=["values"])
