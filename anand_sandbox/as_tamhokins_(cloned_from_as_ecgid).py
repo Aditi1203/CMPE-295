@@ -12,7 +12,8 @@ from ecgdetectors import Detectors
 detectors = Detectors(360)
 
 def get_paths():
-    paths = glob("ecg-id-database/Person_**/*.atr")
+    # paths = glob("ecg-id-database/Person_**/*.atr")
+    paths = glob("data1/*.atr")
     paths = [path[:-4] for path in paths]
     # print('Only paths', paths)
     return paths
