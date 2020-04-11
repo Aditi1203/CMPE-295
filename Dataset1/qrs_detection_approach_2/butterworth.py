@@ -1,28 +1,35 @@
 from scipy.signal import filtfilt
-from scipy import stats
-import csv
-import pandas as pd
+import wfdb as wf
+import os
 import numpy as np
 import scipy
 import matplotlib.pyplot as plt
 
-def plot(signals):
+def read_signals(paths, FILTERED_DATA_PATH):
+    # record=0
+    for rec in paths:
+        record_no = rec.rsplit("/", -1)[1]
+        FILE_PATH=os.path.join(FILTERED_DATA_PATH, record_no+'.csv')
+        record = wf.rdsamp(rec, channels=[0])
+        signals = np.asarray(record[0]).flatten()
+        plot(signals, FILE_PATH)
 
-    all=[]
-    for order in signals:
-        for o in order:
-            for i in o:
-                all.append(i)
+def plot(signals, FILE_PATH):
 
-    narr=np.array(all)
-    time= np.linspace(0,0.002,650000)
-    plt.plot(time,narr)
+    filtered_signal=bandPassFilter(signals)
+    np.savetxt(FILE_PATH, filtered_signal, fmt='%2.4e')
+    # Plot the graph
+    # samples = 40000
+    # time = np.linspace(0, 0.002, samples)
+    # y1 = signals[:samples]
+    # y2 = filtered_signal[:samples]
+
+    # Plot the results
+    # plt.plot(time, y1, 'r--', time, y2, 'b--')
+    # plt.xlabel('time (s)')
+    # plt.ylabel('Unfiltered vs Data filtered with Bandpass filter')
     # plt.show()
 
-    filtered_signal=bandPassFilter(all)
-    print("-----",filtered_signal)
-    plt.plot(time,filtered_signal)
-    plt.show()
 
 
 def bandPassFilter(signal):
