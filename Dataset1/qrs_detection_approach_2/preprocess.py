@@ -11,12 +11,12 @@ def get_paths():
     # There are 3 files for each record
     # *.atr is one of them
     # 117 is faulty one, 100 is good one
-    paths = glob("data/117.atr")
+    paths = glob("data/*.atr")
 
     paths = [path[:-4] for path in paths]
     print("All paths", paths)
 
-    return paths[:1]
+    return paths[:4]
 
 def read_signals(paths):
     all_signals = []
@@ -40,9 +40,6 @@ def read_signals(paths):
         print("Length of all beats", len(all_beats))
         print("Length of beats", len(beats))
         print("--------------------------------")
-        # print("indexing", record[0][13])
-        # print("indexing", record[0][68])
-        # print("indexing", record[0][369])
 
         patient=[]
         for i in all_beats:
@@ -115,12 +112,12 @@ if __name__ == "__main__":
 
     # from sample2_butterworth import run
     # run(signals)
-    print("Save to csv")
-
-    from qrs_complex import save_to_csv, save_to_csv_segmented, create_signal, signal_to_image, input_files, create_data_label
-    save_to_csv(segment, file_list,'segment.csv')
+    # print("Save to csv")
+    #
+    # from qrs_complex import save_to_csv, save_to_csv_segmented, create_signal, signal_to_image, input_files, create_data_label
+    # save_to_csv(segment, file_list,'segment.csv')
     # save_to_csv_segmented(segment, file_list,'segment.csv')
-    signal=create_signal(file_list,'segment.csv', signals, segment)
+    # signal=create_signal(file_list,'segment.csv', signals, segment)
     # print("length of signal after christov", len(signal),len(signal[0]))
 
 

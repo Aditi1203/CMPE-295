@@ -12,6 +12,7 @@ def read_signals(paths, FILTERED_DATA_PATH):
         FILE_PATH=os.path.join(FILTERED_DATA_PATH, record_no+'.csv')
         record = wf.rdsamp(rec, channels=[0])
         signals = np.asarray(record[0]).flatten()
+        signals = signals[:300000]
         plot(signals, FILE_PATH)
 
 def plot(signals, FILE_PATH):
@@ -19,8 +20,8 @@ def plot(signals, FILE_PATH):
     filtered_signal=bandPassFilter(signals)
     np.savetxt(FILE_PATH, filtered_signal, fmt='%2.4e')
     # Plot the graph
-    # samples = 40000
-    # time = np.linspace(0, 0.002, samples)
+    # samples = 1000
+    # time = np.linspace(0, 0.2, samples)
     # y1 = signals[:samples]
     # y2 = filtered_signal[:samples]
 
@@ -30,20 +31,54 @@ def plot(signals, FILE_PATH):
     # plt.ylabel('Unfiltered vs Data filtered with Bandpass filter')
     # plt.show()
 
+    # Solution 2:
+    # time = np.linspace(0, 0.2, 3000)
+    # y1 = signals[:3000]
+    # y2 = ekf[:3000]
+    # y3 = eks[:3000]
+
+    # x1 = np.linspace(0.0, 5.0)
+    # x2 = np.linspace(0.0, 2.0)
+
+    # y1 = np.cos(2 * np.pi * x1) * np.exp(-x1)
+    # y2 = np.cos(2 * np.pi * x2)
+
+    # plt.subplot(2, 1, 1)
+    # plt.plot(time, y1, '.-')
+    # plt.title('A tale of 2 subplots')
+    # plt.ylabel('Damped oscillation')
+    #
+    # plt.subplot(2, 1, 2)
+    # plt.plot(time, y2, '.-')
+    # plt.xlabel('time (s)')
+    # plt.ylabel('Undamped')
+    #
+    # plt.show()
+
+    # plt.subplot(2, 1, 1)
+    # plt.plot(time, y1, 'o-')
+    # plt.title('Unfiltered vs Extended Kalman Filter vs EF Smoothening')
+    # plt.ylabel('Unfiltered')
+    #
+    # plt.subplot(2, 2, 1)
+    # plt.plot(time, y1, 'o-')
+    # plt.title('Unfiltered vs Extended Kalman Filter vs EF Smoothening')
+    # plt.ylabel('Unfiltered')
 
 
 def bandPassFilter(signal):
 
     fs=360.0
-    lowcut=5.0
-    highcut=40.0
+    lowcut=5
+    highcut=40
     nyq=0.5*fs
     low=lowcut/nyq
     high=highcut/nyq
 
-    order=4
+    order=5
 
     b,a=scipy.signal.butter(order, [low,high],'bandpass',analog=False)
+    # b,a=scipy.signal.butter(order, low, btype='low', analog=False)
     y=scipy.signal.filtfilt(b,a,signal,axis=0)
     return y
 
