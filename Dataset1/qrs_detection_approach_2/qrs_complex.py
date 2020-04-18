@@ -38,7 +38,7 @@ def save_to_csv(signals, file_list, file):
     file_name = file
     for f in file_list:
 
-        directory = segment_csv_main + f;
+        directory = segment_csv_main + f
         filename = directory + '/' + file_name
         if not os.path.exists(os.path.dirname(filename)):
             try:
