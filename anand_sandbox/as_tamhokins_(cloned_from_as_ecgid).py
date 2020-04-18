@@ -12,15 +12,16 @@ from ecgdetectors import Detectors
 detectors = Detectors(360)
 
 def get_paths():
-    paths = glob("ecg-id-database/Person_**/*.atr")
+    # paths = glob("ecg-id-database/Person_**/*.atr")
+    paths = glob("data1/*.atr")
     paths = [path[:-4] for path in paths]
-    # print('Only paths', paths)
     return paths
 
 def read_signals(paths):
     all_signals = []
     for rec in paths:
-        record_number = rec[23:25]
+        record_number = rec.split("/")[1]
+
         segment_folder = "pan_tomp_data/person_"+str(record_number)
         if os.path.exists(segment_folder):
             print('The directory exists')
