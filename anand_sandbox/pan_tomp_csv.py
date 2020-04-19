@@ -14,16 +14,17 @@ detectors = Detectors(360)
 
 def get_paths():
     # paths = glob("ecg-id-database/Person_**/*.atr")
-    paths = glob("RAW_ECG_CSV/*.csv")
+    paths = glob("BANDPASS_LP5_HP_40/*.csv")
     # paths = [path[:-4] for path in paths]
     return paths
 
 def read_signals(paths):
     all_signals = []
     for rec in paths:
+        
         record_number = (rec.split("/")[1]).split('.')[0]
 
-        segment_folder = "pan_tomp_data/person_"+str(record_number)
+        segment_folder = "bandp_seg/person_"+str(record_number)
         if os.path.exists(segment_folder):
             print('The directory exists')
         else:
@@ -39,9 +40,12 @@ def read_signals(paths):
         # beats = annotation.sample
         distilled_record = []
         with open(rec) as csvfile:
-            record_reader = csv.reader(csvfile)
+            record_reader = csv.reader(csvfile, delimiter = ',')
             for row in record_reader:
                 distilled_record.append(float(row[0]))
+                # distilled_record = [float(num) for num in row]
+            
+        
         
         # detecting qrs using pan tompkins via py-ecg-detector package
         # distilled_record = [a[0] for a in record[0]]
@@ -67,7 +71,7 @@ def read_signals(paths):
             segment = distilled_record[i:j+1]
             segment_for_csv = np.array(segment, dtype=np.float)
             # print("length of segment:",len(segment))
-            save_to_csv(segment_for_csv,"pan_tomp_data/person_"+str(record_number)+"/seg"+str(count)+".csv")
+            save_to_csv(segment_for_csv,"bandp_seg/person_"+str(record_number)+"/seg"+str(count)+".csv")
 
 
 paths = get_paths()
