@@ -31,13 +31,13 @@ from scipy import signal
 def load_data(number_of_items=100):
 
     #-----------------------------------Change variable here------------------
-    path = "pan_tomp_data"
+    path = "scalogram_module"
     
     if not os.path.exists(path+"/Scalogram"):
         os.makedirs(path+"/Scalogram")
     
     #-----------------------------------Change variable here------------------
-    path1= "pan_tomp_data/Scalogram"
+    path1= "scalogram_module/Scalogram"
     data = [] 
     curated_data = {"segments":[]}
     
@@ -86,17 +86,20 @@ def load_data(number_of_items=100):
                         #plt.imshow(image1)
                         #plt.show()
                         #------------------------------------------------------
+                        plt.close()
+                        del(im1)
+                        del(df1)
 
-                        curated_data['segments'].append(df1)
+                        # curated_data['segments'].append(df1)
               #print(df1)
                 except:
                     df = None  
         #data.append(data_model) # Save all the data
 
-    return curated_data
+    return {}
 
 #-----------------------------------Change variable here------------------
 
 #--------------------Change number_of_items to 24 or as many number of people you want to convert---
-data = load_data(number_of_items=2)
+data = load_data()
 
