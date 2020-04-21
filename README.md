@@ -2,7 +2,7 @@
 
 ### Dataset Used:
 
-ECG ID dataset from physio.net
+MIT BIH dataset from physio.net
 
 ### Steps to convert the Binary data to CSV files:
 
