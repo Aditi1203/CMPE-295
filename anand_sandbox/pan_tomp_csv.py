@@ -10,7 +10,7 @@ from helper import save_to_csv
 
 # experimental package: adding a package for detecting r peaks using pan tomkins algorithm
 from ecgdetectors import Detectors
-detectors = Detectors(360)
+detectors = Detectors(257)
 
 def get_paths():
     # paths = glob("ecg-id-database/Person_**/*.atr")
