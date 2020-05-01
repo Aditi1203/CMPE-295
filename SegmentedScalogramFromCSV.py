@@ -29,16 +29,16 @@ from scipy import signal
 #import ecg_plot
 
 
-def load_data(number_of_items=20):
+def load_data(number_of_items=32):
 
     # -----------------------------------Change variable here------------------
-    path = "st_petersberg_segments"
+    path = "person_segments"
 
     if not os.path.exists(path+"/Scalogram"):
         os.makedirs(path+"/Scalogram")
 
     # -----------------------------------Change variable here------------------
-    path1 = "st_petersberg_segments/Scalogram"
+    path1 = "person_segments/Scalogram"
     data = []
     curated_data = {"segments": []}
 
